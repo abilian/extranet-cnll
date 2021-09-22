@@ -1,0 +1,28 @@
+PRODUCTION = true
+
+# SERVER_NAME = 'localhost:5443'
+# PREFERRED_URL_SCHEME = 'http'
+
+# Mail
+MAIL_DEBUG = 0
+INCOMING_MAIL_USE_MAILDIR = true
+MAIL_SENDER = 'extranet_cnll@mailer.abilian.com'
+# reply by email settings:
+MAIL_ADDRESS_TAG_CHAR = '+'
+SBE_FORUM_REPLY_BY_MAIL = true
+
+SESSION_COOKIE_NAME = 'extranet_cnll-session'
+# LOGGING_CONFIG_FILE = 'logging.yml'
+
+CELERYD_PREFETCH_MULTIPLIER = 1
+CELERY_ALWAYS_EAGER = false # True: run tasks locally, no async
+CELERY_EAGER_PROPAGATES_EXCEPTIONS = true
+
+
+# develop settings
+DEBUG = false
+# ASSETS_DEBUG = ''
+DEBUG_TB_ENABLED = false
+TEMPLATE_DEBUG = false
+DEBUG_TB_INTERCEPT_REDIRECTS = false
+DEBUG_TB_PROFILER_ENABLED = false

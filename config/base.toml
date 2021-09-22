@@ -1,0 +1,2 @@
+SITE_NAME = 'Extranet CNLL'
+CELERY_TIMEZONE = 'Europe/Paris'
